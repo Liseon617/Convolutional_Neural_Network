@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-from dense import Dense
-from hyperbolic_tanh import Tanh
+from dense_layer import Dense
+from activation_layer import Tanh
 from mse import mse, mse_prime
 from network import predict, train
 
