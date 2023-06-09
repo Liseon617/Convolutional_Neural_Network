@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 from dense_layer import Dense
 from activation_layer import Tanh
-from mse import mse, mse_prime
+from loss import mse, mse_prime
 from network import predict, train
 
 X = np.reshape([[0, 0], [0, 1], [1, 0], [1, 1]], (4, 2, 1))
